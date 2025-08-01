@@ -7,7 +7,7 @@ let lightbox;
 
 export function showLoader() {
   const loader = document.querySelector('.preloader');
-  if (loader) loader.style.display = 'block';
+  if (loader) loader.style.display = 'flex';
 }
 
 export function hideLoader() {
